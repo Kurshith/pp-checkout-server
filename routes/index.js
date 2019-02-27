@@ -20,14 +20,14 @@ router.get('/thankyou', function(req, res, next) {
 
 
 var CONFIG =  {
-		"CLIENT_ID" :"ATDtSDCij93X_nKgEO_L9L7lpnjGLxl7W3PBqggsHIj1GUcP39eDuEFH6oguUmiesK3EukWadZtkVNWP",
-		"SECRET":"ECeLYuRNOmNndr8GPNd10G8W5afcImSmKgoJgRg7i05IGi1B9gPYM0uxfwDXLmERLpqfKFosRP6AWVeZ",
+		"CLIENT_ID" :"ATqbeojF1uslgUzkOLUg1qfF6qOHyl6t7JvCAlOmaDNHjebxt1978xnCLtkpEj85u7i17twxE26HuCwm",
+		"SECRET":"EBzqQMQXSV05vBW8Cg2KhrvNkxMX4OVfkHygIwBPTHf6CqjRyRkI8f2EzwnGuTIPngwoeTFz5dEVX99A",
 		"ACCESS_TOKEN_URL":"https://api.sandbox.paypal.com/v1/oauth2/token",
 		"CREATE_PAYMENT_URL":"https://api.sandbox.paypal.com/v1/payments/payment",
 		"EXECUTE_PAYMENT_URL":"https://api.sandbox.paypal.com/v1/payments/payment/{payment_id}/execute/",
 		"GET_PAYMENT_DETAILS":"https://api.sandbox.paypal.com/v1/payments/payment/{payment_id}",
-		"CANCEL_URL":"https://nativexo-cart.herokuapp.com/thankyou",
-		"RETURN_URL":"https://nativexo-cart.herokuapp.com/thankyou",
+		"CANCEL_URL":"https://kdevtest.herokuapp.com/thankyou",
+		"RETURN_URL":"https://kdevtest.herokuapp.com/thankyou",
 		"BN_CODE":"PP-DemoPortal-EC-JSV4-python-REST"
 	};
 
@@ -95,8 +95,8 @@ var PAYLOAD = {
   ],
   "note_to_payer": "Contact us for any questions on your order.",
   "redirect_urls": {
-    "return_url": "https://nativexo-cart.herokuapp.com/thankyou",
-    "cancel_url": "https://nativexo-cart.herokuapp.com/thankyou"
+    "return_url": "https://kdevtest.herokuapp.com/thankyou",
+    "cancel_url": "https://kdevtest.herokuapp.com/thankyou"
   }
 };
 
