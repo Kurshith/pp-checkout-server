@@ -20,8 +20,8 @@ router.get('/thankyou', function(req, res, next) {
 
 
 var CONFIG =  {
-		"CLIENT_ID" :"",
-		"SECRET":"",
+		"CLIENT_ID" :"ATqbeojF1uslgUzkOLUg1qfF6qOHyl6t7JvCAlOmaDNHjebxt1978xnCLtkpEj85u7i17twxE26HuCwm",
+		"SECRET":"EBzqQMQXSV05vBW8Cg2KhrvNkxMX4OVfkHygIwBPTHf6CqjRyRkI8f2EzwnGuTIPngwoeTFz5dEVX99A",
 		"ACCESS_TOKEN_URL":"https://api.sandbox.paypal.com/v1/oauth2/token",
 		"CREATE_PAYMENT_URL":"https://api.sandbox.paypal.com/v1/payments/payment",
 		"EXECUTE_PAYMENT_URL":"https://api.sandbox.paypal.com/v1/payments/payment/{payment_id}/execute/",
